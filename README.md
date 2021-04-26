@@ -81,7 +81,7 @@ This Image Recognition/Classification Software is built using the **CIFAR-10 Dat
 
 The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class.<br>
 
-You may head on to <a href = 'https://github.com/Yashvardhang/CNN'>Image Recognition</a> to explore and know more about the project.
+You may head on to <a href = 'https://github.com/YashvardhanG/CNN/tree/main/Image%20Recognition%20Software'>Image Recognition</a> to explore and know more about the project.
 
 **Note:** The dataset is downloaded as soon as you open the main code, but you may also download the CIFAR-10 Dataset Externally. To download the CIFAR-10 Dataset, head on to <a href = 'https://www.cs.toronto.edu/~kriz/cifar.html'>CIFAR-10</a> website.
 <br><br>
