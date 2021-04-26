@@ -6,7 +6,6 @@
   <a href="https://github.com/Yashvardhang/CNN">
     <img src="Icons/CNN.svg" alt="Logo" width="128" height="128">
   </a>
-
   <h3 align="center">CNN</h3>
   <p align="center">
    Convolutional Neural Network Projects
