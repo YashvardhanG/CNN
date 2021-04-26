@@ -9,7 +9,7 @@
 
   <h3 align="center">CNN</h3>
   <p align="center">
-   Con
+   Convolutional Neural Network Projects
   </p>
 </p>
 
@@ -97,7 +97,7 @@ The working of all the projects can broadly be categorised into two steps:
   <li><b>Training:</b><br>This is the initialising step, or can be considered as the pre-processing step of a ConvNet. This indeed is the most important steop because this is where the CNN actually learns and understands the purpose of the user-application, and compiles a data model which can be integrated in a main driver code/application. This is the primary step where data is sorted, analysed, processed and arranged. </li><br>
   <li><b>Testing:</b><br>This is the secondary step of a CNN which includes the usage of the created data model in the previous step. In this step, you will create the driver code/application which will provide a user interface to interact with the dataset in order to carry out a specific operation, for which the application is designed for. This in summary, is the 'fancy' of a CNN.</li><br>
 </ol>
-<br>
+
 To know more about the working of different projects, go ahead and explore all the <a href="#projects">Projects</a>.
 <br>
 **Note:** Each CNN is different, and you may or may not put both of these steps in the same code.
@@ -139,5 +139,6 @@ Every program is ever evolving and, that is possible only with valuable contribu
   <li><a href = 'https://towardsdatascience.com/convolutional-neural-networks-explained-9cc5188c4939#:~:text=A%20Convolutional%20Neural%20Network%2C%20also,topology%2C%20such%20as%20an%20image.&text=Each%20neuron%20works%20in%20its,cover%20the%20entire%20visual%20field.'>Convolutional Neural Networks</a></li>
   <li><a href = 'https://towardsdatascience.com/convolutional-neural-network-17fb77e76c05#:~:text=Fully%20Connected%20Layer%20is%20simply,into%20the%20fully%20connected%20layer.'>Working of CNN</a></li>
   <li><a href = 'https://developers.google.com/machine-learning/glossary/#convolutional_neural_network'>CNN Glossary</a></li>
+  <li><a href = 'https://www.flaticon.com/'>Icons</a></li>
 </ul>
 
