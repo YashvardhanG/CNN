@@ -29,28 +29,29 @@
 <!-- ABOUT -->
 ## About
 
-Cynthia is an Artificial Intelligent Computer Assistant. It can help you with various kinds of things and reduce your effort of opening and executing things.
+**Image Recognition/Classification Software** uses the **CIFAR-10 Dataset** (Canadian Institute for Advanced Research, 10 Classes). The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images. <br>
 
-Cynthia can execute basic functions like commencing a countdown, information about the weather, and even perform an advanced task such as helping you in taking down notes and read them as well. This Assistant works in two modes, <b>Voice</b> and <b>Text</b> based modes. By default, it runs in text mode (command prompt). The modes can easily be switched by just writing or speaking, 'change mode' as your command.
+The classes present in the Dataset are:
+<ul>
+  <li>Airplane</li>
+  <li>Automobile</li>
+  <li>Bird</li>
+  <li>Cat</li>
+  <li>Deer</li>
+  <li>Dog</li>
+  <li>Frog</li>
+  <li>Horse</li>
+  <li>Ship</li>
+  <li>Truck</li>
+</ul>
 
-The purpose behind building this Computer Assistant is to reduce the effort that is required in performing very menial tasks. With this, you may open stuff in your browser, laptop, and further control it just by typing in a command or simply saying it out loud. The assistant is yet in its initial stages and hence, the scope of commands and functionalities is limited. You may just fork this project, and recommended and add any sort of functionality which you think might add to the overall performance.
+The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class.<br>
 
-You may head on the the <a href="#working">Working</a> section to view the working process of the program and, go ahead and head on to the <a href="#developments">Development</a> pane to know the current developement goals with this project.
-
-It has been completely developed using Python programming language, and hence, requires some modules. The list of required modules and installation commands have been given in the <a href="#requirements">next</a> section.
+**Note:** The dataset is downloaded as soon as you open the main code, but you may also download the CIFAR-10 Dataset Externally. To download the CIFAR-10 Dataset, head on to <a href = 'https://www.cs.toronto.edu/~kriz/cifar.html'>CIFAR-10</a> website.
+<br><br>
 
 <!-- REQUIREMENTS -->
 ## Requirements
-
-To install all the required Python Modules, Pull the project, Open Command Prompt, and then type the following command:
-
-```
- > pip install -r requirements.txt
-```
-
-**Note:** Make sure to change the directory to the directory where the project has been stored. 
-
-You may also download all of them individually using the statements below.
 
 List of Pre-Requisite Python Modules:
 
@@ -72,18 +73,18 @@ List of Pre-Requisite Python Modules:
 <!-- WORKING -->
 ## Working
 
-There a total of 3 programs in this project.
+You may explore the working of a Convolutional Neural Network <a href = 'https://towardsdatascience.com/convolutional-neural-network-17fb77e76c05#:~:text=Fully%20Connected%20Layer%20is%20simply,into%20the%20fully%20connected%20layer.'>Here</a>.
+<br><br>
+The working of all the projects can broadly be categorised into two steps:
 <ol>
-  <li><b>Main:</b><br>This is the main driver code and detects wether the mode has been set to the text mode or voice mode. If no mode is prescribed, the automatically   takes it as text based mode.</li><br>
-  <li><b>Voice:</b><br>This consists of the voice functionalities and the entire voice based interface.</li><br>
-  <li><b>Cynthia:</b><br>Finally, this consists of the text based interface and functionalities.</li><br>
+  <li><b>Training:</b><br>This is the initialising step, or can be considered as the pre-processing step of a ConvNet. This indeed is the most important steop because this is where the CNN actually learns and understands the purpose of the user-application, and compiles a data model which can be integrated in a main driver code/application. This is the primary step where data is sorted, analysed, processed and arranged. </li><br>
+  <li><b>Testing:</b><br>This is the secondary step of a CNN which includes the usage of the created data model in the previous step. In this step, you will create the driver code/application which will provide a user interface to interact with the dataset in order to carry out a specific operation, for which the application is designed for. This in summary, is the 'fancy' of a CNN.</li><br>
 </ol>
 
-Many functionalities of this project depend on **Internet Connectivity** so, make sure that your device has an active internet connection. The Project further doesn't require anything (except the pre-requisite modules mentioned above obv). For ease of distinction and development, the voice and text interfaces have been maintained separately.
+To know more about the working of different projects, go ahead and explore all the <a href="#projects">Projects</a>.
 <br>
-**Note:** Make sure to pull and keep all these codes into a single directory.
+**Note:** Each CNN is different, and you may or may not put both of these steps in the same code.
 <br><br>
-As the assistant is used, it further creates more files and functionalities in the same directory along the way. Head on to the <a href="#developements">next</a> section to view the current goals and developments proposed in this project.
 
 <!-- contribute -->
 ## Contribute
