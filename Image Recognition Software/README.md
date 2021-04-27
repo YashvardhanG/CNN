@@ -120,6 +120,8 @@ Every program is ever evolving and, that is possible only with valuable contribu
 <!-- Acknowledgement -->
 ## Acknowledgements
 
+This project was made by <a href = 'https://github.com/YashvardhanG'>Yashvardhan Gupta</a> and <a href = 'https://github.com/satwikasridhar'>Satwika Sridhar</a>
+<br>
 <ul>
   <li><a href = "https://www.cs.toronto.edu/~kriz/cifar.html">CIFAR-10 Dataset</a></li>
   <li><a href = "https://www.tensorflow.org/">Tensorflow</a></li>
