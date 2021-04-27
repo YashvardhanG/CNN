@@ -121,5 +121,6 @@ Every program is ever evolving and, that is possible only with valuable contribu
 ## Acknowledgements
 
 <ul>
-  <li>Cynthia development and Logo: <a href = "https://www.spiralcosmos.com">Spiral Cosmos</a></li>
+  <li><a href = "https://www.cs.toronto.edu/~kriz/cifar.html">CIFAR-10 Dataset</a></li>
+  <li><a href = "https://www.tensorflow.org/">Tensorflow</a></li>
 </ul>
