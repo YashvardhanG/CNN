@@ -80,15 +80,15 @@ This Image Recognition/Classification System can be broken down into 2 basic Alg
 While **Training** the dataset, the ConvNet was made to run through a total of **50 Epochs**, and this resulted in the end accuracy of **90%+**. This dataset was saved and compiled as  _dataset.h5_ and is readily available with the source codes and can be acessed easily. A set of pre-downloaded images have been provided in another folder names _Images_, in which 2 are taken directly from the dataset itself. The images were then inputted through the GUI in the Testing source code, and classified all images correctly **except one**. This proved that the model doesn't have a 100% accuracy and is partially accurate.
 <br><br>
 <p align = "center">
-  <img src="Souce/Training.jpg" alt="Training">
+  <img src="Source/Training.jpg" alt="Training">
   <b><h4 align = "center">Training the Dataset</h4></b>
-  <br><br>
-  <img src="Souce/Testing1.jpg" alt="Horse">
+  <br>
+  <img src="Source/Testing1.jpg" alt="Horse">
   <b><h4 align = "center">Correctly identified as 'Horse'</h4></b>
-  <br><br>
-  <img src="Souce/Testing2.jpg" alt="Cat">
+  <br>
+  <img src="Source/Testing2.jpg" alt="Cat">
   <b><h4 align = "center">All except one identified wrong <br><i>(Cat identified as 'Dog')</i></h4></b>
-  <br><br>
+  <br>
 </p>
 
 **Note:** Only **PNG** image files are supported in this recognition system.
