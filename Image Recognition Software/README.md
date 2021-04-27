@@ -47,6 +47,8 @@ The classes present in the Dataset are:
 
 The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class.<br>
 
+The purpose of creating this system is in order to know more about the intricacies of AI and develop on the pre-existing grounds of Image Recognition. Image Recognition as a concept can solve a wide spectrum of issues in real world, from security applications to even real-time detection for physcially challenged people. This Image Recogniton software builds grounds for further research and development. Feel free to add on to this project and develop this system furtheron. Head on to the <a href="#contribute">Contribution</a> section to know more on how to do so.
+
 **Note:** The dataset is downloaded as soon as you open the main code, but you may also download the CIFAR-10 Dataset Externally. To download the CIFAR-10 Dataset, head on to <a href = 'https://www.cs.toronto.edu/~kriz/cifar.html'>CIFAR-10</a> website.
 <br><br>
 
@@ -56,34 +58,40 @@ The dataset is divided into five training batches and one test batch, each with 
 List of Pre-Requisite Python Modules:
 
 ```
- > pip install PyDictionary
- > pip install psutil
- > pip install plyer
- > pip install PyAudio
- > pip install sounddevice
- > pip install scipy
- > pip install playsound
- > pip install requests
- > pip install weather-forecast
- > pip install gTTS
- > pip install SpeechRecognition
- > pip install translate
+ > pip install tensorflow
+ > pip install keras
+ > pip install matplotlib
+ > pip install numpy
+ > pip install tk
 ```
+
+**Note:** It is advisable to upgrade your pip before installing **Tensorflow.**
+<br>
 
 <!-- WORKING -->
 ## Working
 
-You may explore the working of a Convolutional Neural Network <a href = 'https://towardsdatascience.com/convolutional-neural-network-17fb77e76c05#:~:text=Fully%20Connected%20Layer%20is%20simply,into%20the%20fully%20connected%20layer.'>Here</a>.
-<br><br>
-The working of all the projects can broadly be categorised into two steps:
+This Image Recognition/Classification System can be broken down into 2 basic Algorithms:
 <ol>
-  <li><b>Training:</b><br>This is the initialising step, or can be considered as the pre-processing step of a ConvNet. This indeed is the most important steop because this is where the CNN actually learns and understands the purpose of the user-application, and compiles a data model which can be integrated in a main driver code/application. This is the primary step where data is sorted, analysed, processed and arranged. </li><br>
-  <li><b>Testing:</b><br>This is the secondary step of a CNN which includes the usage of the created data model in the previous step. In this step, you will create the driver code/application which will provide a user interface to interact with the dataset in order to carry out a specific operation, for which the application is designed for. This in summary, is the 'fancy' of a CNN.</li><br>
+  <li><b>CNN Training:</b><br>This is the primary step and the most important algorithim in this CNN. It loads the CIFAR-10 Dataset, creates classes and trains the network to create a data model which can be further used to classify the images using a GUI. This step has been included in the <b>Training</b> source code in the rep.</li><br>
+  <li><b>Classification Testing:</b><br>This is the secondary step of a CNN which includes the usage of the created data model in the previous step. In this step we have created a GUI using the Python library 'Tkinter', which inputs an image from the user and tries to classify it in either of the 10 classes. This GUI can be accessed in the <b>Testing</b> source code. </li><br>
 </ol>
 
-To know more about the working of different projects, go ahead and explore all the <a href="#projects">Projects</a>.
+While **Training** the dataset, the ConvNet was made to run through a total of **50 Epochs**, and this resulted in the end accuracy of **90%+**. This dataset was saved and compiled as  _dataset.h5_ and is readily available with the source codes and can be acessed easily. A set of pre-downloaded images have been provided in another folder names _Images_, in which 2 are taken directly from the dataset itself. The images were then inputted through the GUI in the Testing source code, and classified all images correctly **except one**. This proved that the model doesn't have a 100% accuracy and is partially accurate.
 <br>
-**Note:** Each CNN is different, and you may or may not put both of these steps in the same code.
+<p align = "center">
+  <img src="/Souce/Training.jpeg" alt="Training">
+  <b><h4 align = "center">Training the Dataset</h4></b>
+  <br><br>
+  <img src="/Souce/Testing1.jpeg" alt="Horse">
+  <b><h4 align = "center">Correctly identified as 'Horse'</h4></b>
+  <br><br>
+  <img src="/Souce/Testing2.jpeg" alt="Cat">
+  <b><h4 align = "center">All except one identified wrong <br><i>(Cat identified as 'Dog')</i></h4></b>
+  <br><br>
+</p>
+
+**Note:** Only **PNG** image files are supported in this recognition system.
 <br><br>
 
 <!-- contribute -->
