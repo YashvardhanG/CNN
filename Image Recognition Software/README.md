@@ -110,18 +110,17 @@ Every program is ever evolving and, that is possible only with valuable contribu
 
 <!-- CONTACT -->
 ## Contact
-
+This project was made by <a href = 'https://github.com/YashvardhanG'>Yashvardhan Gupta</a> and <a href = 'https://github.com/satwikasridhar'>Satwika Sridhar</a>
+<br>
 <p align="center">
   <br>
-  <img src="https://github.com/YashvardhanG/YashvardhanG/blob/main/Spiral%20Cosmos.png" alt="Logo" width="155" height="140"><br><br>
+  <img src="https://github.com/YashvardhanG/YashvardhanG/blob/main/Spiral%20Cosmos.png" alt="Logo" width="155" height="140"><br>
   <a href = "https://www.spiralcosmos.com">Spiral Cosmos</a>
 </p>
 
 <!-- Acknowledgement -->
 ## Acknowledgements
 
-This project was made by <a href = 'https://github.com/YashvardhanG'>Yashvardhan Gupta</a> and <a href = 'https://github.com/satwikasridhar'>Satwika Sridhar</a>
-<br>
 <ul>
   <li><a href = "https://www.cs.toronto.edu/~kriz/cifar.html">CIFAR-10 Dataset</a></li>
   <li><a href = "https://www.tensorflow.org/">Tensorflow</a></li>
